@@ -8,7 +8,7 @@ def random_ip():
     return ".".join(str(random.randint(0, 255)) for _ in range(4))
 
 def random_port():
-    print(random.randrange(65535))
+    return random.randrange(65535)
 
 ## default values set for random ip and port
 ## v = verbose
